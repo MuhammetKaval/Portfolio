@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
 
@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>Muhammet Kaval</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,15 +71,15 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
-        <h1 class="mb-0">Clarence
-          <span class="text-primary">Taylor</span>
+        <h1 class="mb-0">Muhammet
+          <span class="text-primary">Kaval</span>
         </h1>
-        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-          <a href="mailto:name@email.com">name@email.com</a>
+        <div class="subheading mb-5">
+          <a href="mailto:Muhammetkaval@yahoo.com">Muhammetkaval@yahoo.com</a>
         </div>
-        <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
-          overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall
-          value proposition.</p>
+        <p class="mb-5">I'm a Game Developer with over 3 years experience. I specialize in Unity Engine and Gameplay,
+          mainly in C#.
+        </p>
         <ul class="list-inline list-social-icons mb-0">
           <li class="list-inline-item">
             <a href="#">
@@ -119,20 +119,27 @@
 
 
     <!-- Start Portfolio -->
-
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="porfolio">
       <div class="my-auto">
         <h2 class="mb-5" id="portfolio">Portfolio</h2>
+        <!-- Start years -->
         <div>
-          <!-- Start years -->
           <ul class="nav nav-pills" id="years">
             <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" id="area21-tab" href="#area21" aria-controls="area21"
+              <a class="nav-link active" data-toggle="tab" id="area22-tab" href="#area22" aria-controls="area22"
+                aria-selected="true">2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" id="area21-tab" href="#area21" aria-controls="area21"
                 aria-selected="true">2021</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" id="area20-tab" href="#area20" aria-controls="area20"
                 aria-selected="false">2020</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" id="area19-tab" href="#area19" aria-controls="area19"
+                aria-selected="false">2019</a>
             </li>
           </ul>
         </div> <!-- End years -->
@@ -141,14 +148,71 @@
         <div class="tab-content" id="yearsContent">
 
 
+          <!-- Start 2022 -->
+          <div class="tab-pane fade active show" id="area22" role="tabpanel" aria-labelledby="area22-tab">
+
+            <ul class="nav nav-tabs" id="2022stuff" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" id="sb-tab" href="#sb" role="tab" aria-controls="sb"
+                  aria-selected="true">Sticky Block</a>
+              </li>
+            </ul>
+
+            <!-- Start tab content -->
+            <div class="tab-content" id="2022stuffContent">
+
+
+              <!-- Start Stick Block -->
+              <div class="tab-pane fade active show" id="sb" role="tabpanel" aria-labelledby="sb-tab">
+                <!-- Start image -->
+                <div>
+                  <img src="img/2022/Sticky Block/simple.png" class="img-fluid">
+                </div>
+                <!-- End image -->
+                <br>
+                <!-- Start Description -->
+                <div class="row">
+                  <div class="col">
+                    <p>This game was created in 1 week as a solo project. I wanted to make a puzzle game for android.
+                    </p>
+                    <p>I used text files as input for the levels and displayed them onto&nbsp;screen. I also used a
+                      simple outline shader to give a simple and clean aesthetic to the game</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                    <p><a href="https://github.com/Westerveld/ProPaintWall">GitHub Repository</a></p>
+                    <p><a href="https://youtu.be/7lhENwwsl2g">Gameplay video</a></p>
+                  </div>
+                </div> <!-- Start Description -->
+                <br>
+              </div> <!-- End Stick Block -->
+
+
+            </div> <!-- End tab content -->
+
+          </div> <!-- End 2022 -->
+
+
+
           <!-- Start 2021 -->
-          <div class="tab-pane fade active show" id="area21" role="tabpanel" aria-labelledby="area21-tab">
+          <div class="tab-pane fade" id="area21" role="tabpanel" aria-labelledby="area21-tab">
 
             <!-- Start Nav Tab Buttons -->
             <ul class="nav nav-tabs" id="recent" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" id="ttb-tab" href="#ttb" role="tab" aria-controls="ttb"
                   aria-selected="true">Throw The Ball</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="cg-tab" href="#cg" role="tab" aria-controls="cg"
+                  aria-selected="true">Cube Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="ab-tab" href="#ab" role="tab" aria-controls="ab"
+                  aria-selected="true">Angry Birds Replica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="db-tab" href="#db" role="tab" aria-controls="db"
+                  aria-selected="true">Dodge The Block</a>
               </li>
             </ul>
             <!-- End Nav Tab Buttons -->
@@ -186,6 +250,7 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+                <br>
                 <div class="row align-items-center">
                   <div class="col">
                     <p>This was the first game I created in Unity.</p>
@@ -199,29 +264,101 @@
               </div> <!-- End Throw The Ball -->
 
 
-            </div>
-            <!-- End Tab Contents -->
+              <!-- Start Cube Game -->
+              <div class="tab-pane fade" id="cg" role="tabpanel" aria-labelledby="cg-tab">
+                <br>
+                <!-- Start image -->
+                <div>
+                  <img src="img/2021/BrackeysCubeGame/simple.png" class="img-fluid">
+                </div>
+                <!-- End image -->
+                <br>
+                <!-- Start Description -->
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p>This was the first game I created in Unity.</p>
+                    <p>Our team consisted of 2 Artists and 2 Coders</p>
+                    <p>I scripted the introduction, character movement and throwing, as well as the end scenario.</p>
+                    <p>You can play the game on itch.io</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End Cube Game -->
 
-          </div>
 
-          <!-- End 2020 -->
+              <!-- Start Angry Birds Replica -->
+              <div class="tab-pane fade" id="ab" role="tabpanel" aria-labelledby="ab-tab">
+                <br>
+                <!-- Start image -->
+                <div>
+                  <img src="img/2021/AngryBirdsReplica/maxresdefault.jpg" class="img-fluid">
+                </div>
+                <!-- End image -->
+                <br>
+                <!-- Start Description -->
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p>This was the first game I created in Unity.</p>
+                    <p>Our team consisted of 2 Artists and 2 Coders</p>
+                    <p>I scripted the introduction, character movement and throwing, as well as the end scenario.</p>
+                    <p>You can play the game on itch.io</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End Angry Birds Replica -->
+
+
+              <!-- Start Dodge The Block -->
+              <div class="tab-pane fade" id="db" role="tabpanel" aria-labelledby="db-tab">
+                <br>
+                <!-- Start image -->
+                <div>
+                  <img src="img/2021/DodgeTheBlock/simple.png" class="img-fluid">
+                </div>
+                <!-- End image -->
+                <br>
+                <!-- Start Description -->
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p>This was the first game I created in Unity.</p>
+                    <p>Our team consisted of 2 Artists and 2 Coders</p>
+                    <p>I scripted the introduction, character movement and throwing, as well as the end scenario.</p>
+                    <p>You can play the game on itch.io</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End Dodge The Block -->
+
+
+            </div> <!-- End Tab Contents -->
+
+          </div> <!-- End 2021 -->
 
 
 
-
-
-
-          <!-- Start 2017 -->
+          <!-- Start 2020 -->
           <div class="tab-pane fade" id="area20" role="tabpanel" aria-labelledby="area20-tab">
+
             <ul class="nav nav-tabs" id="2020stuff" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" id="ps-tab" href="#ps" role="tab" aria-controls="ps"
                   aria-selected="true">Padisah Simulator</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="ff-tab" href="#ff" role="tab" aria-controls="ff"
+                  aria-selected="true">Flurffy</a>
+              </li>
             </ul>
 
             <!-- Start tab content -->
             <div class="tab-content" id="2020stuffContent">
+
 
               <!-- Start Padisah Simulator -->
               <div class="tab-pane fade active show" id="ps" role="tabpanel" aria-labelledby="ps-tab">
@@ -271,13 +408,135 @@
               </div> <!-- End Padisah Simulator -->
 
 
+              <!-- Start Flurffy -->
+              <div class="tab-pane fade" id="ff" role="tabpanel" aria-labelledby="ff-tab">
+                <!-- Start image -->
+                <div>
+                  <img src="img/2020/Fluffy(BoTsr)/simple.png" class="img-fluid">
+                </div>
+                <!-- End image -->
+                <br>
+                <!-- Start Description -->
+                <div class="row">
+                  <div class="col">
+                    <p>This game was created in 1 week as a solo project. I wanted to make a puzzle game for android.
+                    </p>
+
+                    <p>I used text files as input for the levels and displayed them onto&nbsp;screen. I also used a
+                      simple outline shader to give a simple and clean aesthetic to the game</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                    <p><a href="https://github.com/Westerveld/ProPaintWall">GitHub Repository</a></p>
+                    <p><a href="https://youtu.be/7lhENwwsl2g">Gameplay video</a></p>
+                  </div>
+                </div> <!-- Start Description -->
+                <br>
+              </div> <!-- End Flurffy -->
 
 
             </div> <!-- End tab content -->
 
-          </div> <!-- End 2017 -->
+          </div> <!-- End 2020 -->
 
 
+
+          <!-- Start 2019 -->
+          <div class="tab-pane fade" id="area19" role="tabpanel" aria-labelledby="area19-tab">
+
+            <ul class="nav nav-tabs" id="2019stuff" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" id="bo-tab" href="#bo" role="tab" aria-controls="bo"
+                  aria-selected="true">BO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="fs-tab" href="#fs" role="tab" aria-controls="fs"
+                  aria-selected="true">Falling Star</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="hw-tab" href="#hw" role="tab" aria-controls="hw"
+                  aria-selected="true">Hit Watermelon</a>
+              </li>
+            </ul>
+
+            <!-- Start tab content -->
+            <div class="tab-content" id="2019stuffContent">
+
+
+              <!-- Start BO -->
+              <div class="tab-pane fade active show" id="bo" role="tabpanel" aria-labelledby="bo-tab">
+                <!-- Start image-->
+                <div>
+                  <img src="img/2019/bo/simple.png" class="img-fluid">
+                </div>
+                <!--End image-->
+                <br>
+                <!-- Start Description -->
+                <div class="row">
+                  <div class="col">
+                    <p>Bu, Unity'de yarattığım ilk oyun.</p>
+                    <p>2B sonsuz koşu oyunu, karpuzlara ninja bıcağımızı fırlatıyoruz.</p>
+                    <p>Bu oyun bende daha fazla oyun yaratma isteği uyandırdı. :)</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                    <p><a href="https://github.com/Westerveld/ProPaintWall">GitHub Repository</a></p>
+                    <p><a href="https://youtu.be/7lhENwwsl2g">Gameplay video</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End BO -->
+
+
+              <!-- Start Falling Star -->
+              <div class="tab-pane fade" id="fs" role="tabpanel" aria-labelledby="fs-tab">
+                <!-- Start image-->
+                <div>
+                  <img src="img/2019/Falling Star/simple (2).png" class="img-fluid">
+                </div>
+                <!--End image-->
+                <br>
+                <!-- Start Description -->
+                <div class="row">
+                  <div class="col">
+                    <p>Bu, Unity'de yarattığım ilk oyun.</p>
+                    <p>2B sonsuz koşu oyunu, karpuzlara ninja bıcağımızı fırlatıyoruz.</p>
+                    <p>Bu oyun bende daha fazla oyun yaratma isteği uyandırdı. :)</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                    <p><a href="https://github.com/Westerveld/ProPaintWall">GitHub Repository</a></p>
+                    <p><a href="https://youtu.be/7lhENwwsl2g">Gameplay video</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End Falling Star -->
+
+
+              <!-- Start Hit Watermelon -->
+              <div class="tab-pane fade" id="hw" role="tabpanel" aria-labelledby="hw-tab">
+                <!-- Start image-->
+                <div>
+                  <img src="img/2019/hitWatermelon/hitWatermelon.png" class="img-fluid">
+                </div>
+                <!--End image-->
+                <br>
+                <!-- Start Description -->
+                <div class="row">
+                  <div class="col">
+                    <p>Bu, Unity'de yarattığım ilk oyun.</p>
+                    <p>2B sonsuz koşu oyunu, karpuzlara ninja bıcağımızı fırlatıyoruz.</p>
+                    <p>Bu oyun bende daha fazla oyun yaratma isteği uyandırdı. :)</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ethanbruins.blocks">View on Google
+                        Play</a></p>
+                    <p><a href="https://github.com/Westerveld/ProPaintWall">GitHub Repository</a></p>
+                    <p><a href="https://youtu.be/7lhENwwsl2g">Gameplay video</a></p>
+                  </div>
+                </div> <!-- End Description -->
+                <br>
+              </div> <!-- End Hit Watermelon -->
+
+
+            </div> <!-- End tab content -->
+
+          </div> <!-- End 2019 -->
 
 
         </div>
@@ -421,23 +680,19 @@
           </li>
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3"></div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design
+            Gameplay Programming
           </li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging
+            Unity
           </li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum
+            Git
           </li>
         </ul>
       </div>
